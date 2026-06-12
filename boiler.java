@@ -2,9 +2,8 @@ import java.util.*;
 
 public class Main{
 
-    private static int solve(){
+    private static int solve(Scanner sc){
         int n;
-        Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
     }
 
@@ -14,7 +13,7 @@ public class Main{
         Scanner sc = new Scanner(System.in);
         t = sc.nextInt();
         while(t-- > 0){
-            System.out.println(solve());
+            System.out.println(solve(sc));
         }
     }
 }
